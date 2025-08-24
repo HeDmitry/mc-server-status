@@ -2,7 +2,7 @@ const GIST_RAW_URL = 'https://gist.githubusercontent.com/HeDmitry/ca8f5050d0717e
 
 // Сколько минут ждать перед тем, как считать сервер оффлайн.
 // Должно быть больше, чем интервал в reporter.py (который 1 минута)
-const TIMEOUT_MINUTES = 2;
+const TIMEOUT_SECONDS = 45;
 
 const statusBox = document.getElementById('status-box');
 const statusText = document.getElementById('status-text');
